@@ -1,0 +1,615 @@
+body{
+    margin: 0%;
+}
+.top-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 238, 238);
+}
+.s-p{
+    font-weight: bolder;
+}
+.f-p{
+    word-spacing: 50px;
+}
+.bottom-header div a:nth-child(3) img{
+    width: 35px;
+    height: 25px;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+.bottom-header div a:nth-child(4) img{
+    width: 35px;
+    height: 25px;
+    position: relative;
+    right: 20px;
+    top: 8px;
+}
+.bottom-header div img:nth-child(2){
+    position: relative;
+    right: 30px;
+    top: 5px;
+}
+.bottom-header img:nth-child(1){
+    width: 130px;
+    height: 100px;
+}
+.bottom-header input:nth-child(1){
+    padding-left: 2px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(34, 30, 30);
+} 
+.bottom-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 30px;
+
+}
+.header-part-3{
+    background-color: rgb(203, 234, 244);
+    height: 60px;
+    display: flex;
+    align-items: center;  
+    padding-left: 85px;
+} 
+.header-part-3 span:nth-child(2), .header-part-3 span:nth-child(3), .header-part-3 span:nth-child(4), .header-part-3 span:nth-child(5){
+    padding-left: 15px;
+}
+.upper-body{
+    display: grid;
+    grid-template-columns: 33% 50%;
+    justify-content: space-evenly;
+    
+}
+.upper-body section>img{
+    width: 500px;
+    height: 500px;
+    margin-top: 35px;
+}
+.text span img{
+    width: 20px;
+    height: 20px;
+}
+.text span:nth-child(2),.text span:nth-child(5),.text span:nth-child(8){
+    font-size: smaller;
+    position: relative;
+    bottom: 4px;
+
+}
+.upper-body section section h5{
+    color: rgb(76, 119, 119);
+}
+.upper-body section section h1{
+    font-size: xx-large;
+}
+.upper-body section section div span:nth-child(1){
+    font-size: x-large;
+    color: rgb(25, 160, 160);
+    font-weight: bolder;
+}
+.upper-body section section div span:nth-child(2){
+    text-decoration: line-through;
+    font-size: small;
+    margin-left: 10px;
+}
+.upper-body section section div span:nth-child(3){
+    font-size: small;
+    margin-left: 10px;
+}
+.upper-body section section div{
+    border-bottom: 1px solid rgb(54, 136, 136);
+    border-top: 1px solid rgb(54, 136, 136);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-bottom: 20px;
+
+}
+.upper-lower-body span:nth-child(2){
+    background-color: rgb(237, 204, 17);
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.upper-lower-body span:nth-child(3){
+    background-color: rgb(169, 35, 5);
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.upper-lower-body span:nth-child(4){
+    background-color: rgb(137, 141, 7);
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.upper-lower-body span:nth-child(5){
+    background-color: rgb(191, 7, 108);
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+}   
+.upper-lower-body span:nth-child(6){
+    background-color: rgb(3, 176, 15);
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+} 
+.upper-lower-body{
+    margin-bottom: 25px;
+}
+.upper-lower-two-body span:nth-child(2){
+    background-color: rgb(8, 151, 60);
+    padding: 5px 10px;
+    margin-left: 15px;
+    color: white;
+}  
+.upper-lower-two-body span:nth-child(3){
+    padding: 5px 10px;
+    margin-left: 0px;
+    border: 1px solid gray; 
+}
+.upper-lower-two-body span:nth-child(4){
+    padding: 5px 10px;
+    margin-left: 0px;
+    border: 1px solid gray;
+}
+.upper-lower-two-body span:nth-child(5){
+    padding: 5px 10px;
+    margin-left: 0px;
+    border: 1px solid gray;
+} 
+.upper-lower-three-body{
+    margin-top: 20px;
+}
+.upper-lower-three-body img{
+    width: 20px;
+    height: 15px;
+    border: 1px solid gray;
+    padding: 6px 10px;
+    position: relative;
+    top: 10px;
+} 
+.upper-lower-three-body span:nth-child(1){
+    border: 1px solid gray;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+.upper-lower-three-body span:nth-child(2){
+    border: 1px solid gray;
+    padding: 6px 30px;
+    border-radius: 5px;
+    background-color:  rgb(8, 151, 60);
+    color: white;
+}   
+.middle-body{
+    display: grid;
+    grid-template-columns: 33% 50%;
+    justify-content: left;
+}  
+.middle-body div img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    
+}
+.middle-body div :first-child{
+    margin-left: 75px;
+
+}
+.middle-body div img:nth-child(2){
+    padding-left: 10px;
+} 
+.middle-body div img:nth-child(3){
+    padding-left: 10px;
+}
+.middle-body div:last-child{
+    padding-top: 10px;
+    border-top: 1px solid gray;
+    position: relative;
+    top: 10px;
+    margin-left: 150px;
+} 
+.middle-body div:last-child span:nth-child(1){
+   position: relative;
+   right: 74px;
+} 
+.middle-body div:last-child span:nth-child(2){
+    position: relative;
+    right: 74px;
+}
+.lower-body{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.lower-body a:nth-child(1){
+     color: black;
+     text-decoration: none
+}
+.lower-body a:nth-child(2){
+    margin-left: 20px;
+    color: rgb(17, 137, 137);
+    text-decoration: none;
+}
+section table tr td{
+    padding: 15px;
+
+
+}
+section table{
+    width: 80%;
+    margin-left: 74px;
+} 
+.ten{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.ten .thirty-three{
+    margin-left: 70px;
+    font-weight: bolder;
+    font-size: larger;
+   
+ }
+ .ten .thirty-three span:nth-child(1){
+     color: rgb(28, 202, 202);
+
+}
+
+.ten{
+    display: flex;
+
+}
+.thirteen{
+    display: inline;
+    margin: 20px;
+    vertical-align: middle;
+}
+.twelve{
+    background-color: rgb(169, 187, 204);
+    /* height: 50px; */
+    width: 90px;
+    /* vertical-align: middle;
+    text-align: center; */
+    padding: 10px;
+    text-align: center;
+}
+.fourteen{
+    display: flex;
+    justify-content: center;
+}
+.sixteen{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.fifteen{
+    border: 1px solid lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 8px;
+    
+}
+[class$='d']{
+    color: gold;
+}
+.seventeen{
+    color: rgb(10, 168, 168);
+}
+.ninteen{
+    font-size: small;
+    text-decoration: line-through;
+    
+}
+.mr{
+    position: relative;
+    top: 200px;
+}
+.twenty{
+    background-color: blue;
+    border-radius: 50px;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+    margin: 5px;
+    height: 15px;
+    padding: 5px;
+}
+.fifteen section button{
+    margin-left: 100px;
+}
+.ten div h4{
+    position: relative;
+    left: 50px;
+}
+/* ...Bottom-Footer... */
+.twenty-seven img{
+    width: 50px;
+    height: 50px;
+}
+.twenty-eight{
+    background-color: rgb(23, 154, 154);
+    height: 100px;
+    display: grid;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.twenty-seven{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.twenty-eight .twenty-seven div input:nth-child(2){
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    right: 5px;
+}
+.twenty-eight .twenty-seven div input:nth-child(1){
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid white;
+
+}
+.twenty-nine img:nth-child(1){
+    width: 180px;
+    height: 150px;
+}
+.twenty-nine img:nth-child(13){
+    width: 130px;
+    height: 50px;
+    
+}
+.fourty{
+  display: flex;
+  justify-content: space-around;
+}
+.fourty-four{
+    display: grid;
+    grid-template-columns: 8% 87%;
+    justify-content: end;
+}
+.fourty-five img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.fourty-six img{
+    width: 100px;
+    height: 30px;
+    color: yellow;
+    background-color: aqua;
+}
+.fourty-five h5{
+    position: relative;
+    bottom: 10px;
+}
+.fourty-seven div button{
+    padding: 10px;
+    background-color: rgb(19, 19, 66);
+    color: white;
+    border: 1px solid  rgb(19, 19, 66);
+    margin-left: 63px;
+}
+.fourty-seven textarea{
+    width: 90%;
+    height: 100px;
+    position: relative;
+    right: 40px;
+}
+.fourty-seven div div{
+    height: 40px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+}
+.fourty-seven div img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 70px;
+    left: 55px;
+}
+.fourty-seven div h3{
+    margin-bottom: 40px;
+    margin-left: 65px;
+}
+.fourty-seven div input:nth-child(1){
+    position: relative;
+    left: 15px;
+}
+.fourty-seven div input:nth-child(2){
+    position: relative;
+    right: 20px;
+}
+.sixty div div img{
+    width: 15px;
+    height: 15px;
+}
+.sixty div div{
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sixty{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    justify-content: space-around;
+    margin-top: 50px;
+    position: relative;
+    left: 30px;
+    
+
+    
+}
+.sixty div div:nth-child(1){
+    background-color: rgb(34, 88, 34);
+    color: white;
+}
+.sixty-one{
+    border-bottom: 1px solid grey;
+}
+.sixty-two h3{
+    border: 1px solid gray;
+    padding: 14px;
+    background-color: rgb(139, 155, 203);
+    
+}
+.sixty-two h4{
+    border: 1px solid gray;
+    padding: 20px;
+    position: relative;
+    bottom: 22px;
+    
+    
+}
+.sixty-two{
+   position: relative;
+   right: 55px;
+   bottom: 20px;
+   
+}
+.seventy{
+    display: grid;
+    grid-template-columns: 43% 43%;
+    justify-content: space-around;
+}
+.seventy div input{
+    padding: 10px 350px 10px 10px;
+    margin: 0px 0px 20px 0px;
+}
+.seventy div:last-child input{
+    padding: 10px 350px 10px 10px;
+}
+.seventy-one{
+    position: relative;
+    left: 33px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 230px;
+}
+.seventy-two{
+    position: relative;
+    right: 33px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.seventy .seventy-one button{
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(92, 128, 92);
+    color: white;
+}
+.seventy .seventy-two button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(92, 128, 92);
+    color: white;
+}
+.eighty-five table tr td img{
+    width: 350px;
+    height: 350px;
+}
+.eighty-five table tr:nth-child(5) td span:nth-child(2){
+    background-color: rgb(242, 31, 8);
+    border-radius: 50%;
+    padding: 5px 11px;
+    color: rgb(242, 31, 8);
+}
+.eighty-five table tr:nth-child(5) td span:nth-child(1){
+    background-color: rgb(32, 8, 211);
+    border-radius: 50%;
+    padding: 5px 11px;
+    color:rgb(32, 8, 211);
+}
+.eighty-five table tr:nth-child(5) td span:nth-child(3){
+    background-color: rgb(211, 8, 136);
+    border-radius: 50%;
+    padding: 5px 11px;
+    color:rgb(211, 8, 136);
+}
+
+.eighty-five table tr:nth-child(10) td img{
+     width: 20px;
+     height: 20px;
+}
+.eighty-five{
+    padding: 50px 100px 0px 0px;
+}
+.bottom-bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(91, 86, 86);
+}
+.eighty-five table{
+    text-align: center;
+    position: relative;
+    right: 25px;
+}
+.eighty-five table tr:nth-child(9) td button{
+    background-color: rgb(20, 179, 25);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(20, 179, 25);
+    padding: 10px;
+}
+.bottom-header a{
+    color: black;
+    text-decoration: none;
+}
+.bottom-header h5:nth-child(5){
+    color: rgb(3, 142, 142);
+}
+
+
+
+
+
+
+
+
+
